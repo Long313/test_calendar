@@ -1,0 +1,94 @@
+.App {
+  background-color: #e0faf7;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: 0px 5%;
+  height: 100%;
+  padding-top: 5px;
+}
+
+.left_container {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  height: 100%;
+  width: 33.3333%;
+}
+.left_container .container_calendar {
+  height: 40%;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  min-height: 280px !important;
+}
+
+.css-qct7wd-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+  background-color: #507eae;
+  color: #fff;
+}
+.right_container {
+  
+}
+
+.css-16hplv9-MuiButtonBase-root-MuiIconButton-root-MuiPickersCalendarHeader-switchViewButton {
+  display: none !important;
+}
+
+.css-1nxbkmn-MuiPickersCalendarHeader-root {  
+  margin-top: 0 !important;
+}
+
+.css-qct7wd-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.container_event {
+  margin: 20px;
+}
+
+.container_event .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_event .header .left {
+  color: #10497a;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.container_event .header .right {
+  color: #fff;
+  background-color: #10497a;
+  min-width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 4px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.container_event .today {
+  color: #bbbabf;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.css-1chuxo2-MuiPickersCalendarHeader-label {
+  color: #10497a;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.css-1ckov0h-MuiSvgIcon-root {
+  fill: #10497a !important;
+}

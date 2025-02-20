@@ -1,0 +1,22 @@
+.event {
+
+}
+svg {
+    padding: 4px 2px;
+    border-radius: 50%;
+    font-weight: bold;
+    width: 26px;
+    height: 22px;
+}
+
+.camera_white svg {
+        fill: #fff;
+        background: #5284af;
+       
+}
+
+.camera_blue svg {
+    fill: #5284af;
+    background: #fff9e5;
+   
+}
