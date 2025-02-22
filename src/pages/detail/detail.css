@@ -1,0 +1,83 @@
+.container_detail {
+ margin: 20px 100px;
+}
+img {
+    display: inline;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.container_detail .container_img {
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.container_text {
+    margin-top: 30px;
+    display: flex;
+}
+
+.container_text .left {
+    flex: 1
+}
+
+.container_text  .date {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container_text .title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container_text .date {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+.container_text .description {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.container_text .right {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.container_text .container_price {
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.08);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.container_text .right .price {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.container_text .right .button {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #d1410c !important;
+    color: #fff !important;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.container_text .right .button:hover{
+    opacity: 0.9;
+}

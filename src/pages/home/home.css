@@ -1,6 +1,5 @@
 .App {
     background-color: #e0faf7;
-    /* max-height: 100vh; */
     max-height: max-content;
   }
   
@@ -112,3 +111,5 @@
   .camera_white {
     cursor: pointer;
   }
+
+ 

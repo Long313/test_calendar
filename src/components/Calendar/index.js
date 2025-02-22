@@ -64,6 +64,7 @@ export default function Calendar({ data }) {
                     host: item.host,
                     followers: item.followers,
                     image: item.image,
+                    description: item.description,
                     client: {
                         avatar: item.client.avatar,
                         name: item.client.name,
@@ -104,6 +105,22 @@ export default function Calendar({ data }) {
                 events={list}
                 eventContent={fillData()}
                 eventClick={(info) => handeNavigate(info)}
+                buttonText={{
+                    today: "Today",
+                  }}
+                  customButtons={{
+                    month: {
+                        text: "Month " + String.fromCharCode( 9662  ), // 9660 = ▼
+                        click: function () {
+                        alert("Month button clicked!");
+                      },
+                    },
+                  }}
+                  
+                  headerToolbar={{
+                    left: "today,prev,next,title",
+                    right: "month", // Sử dụng custom button "Month"
+                  }}
             />}
         </div>
     )
