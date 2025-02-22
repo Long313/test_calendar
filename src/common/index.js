@@ -21,7 +21,6 @@ export const convertToLongDate = (isoString) => {
 export const convertDate = (isoString) => { 
     const date = new Date(isoString);
 
-    // Định dạng cho múi giờ GMT+7
     const options = { 
         timeZone: 'Asia/Bangkok', 
         month: 'long', 

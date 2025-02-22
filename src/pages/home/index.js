@@ -101,7 +101,7 @@ function Home() {
               <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <DateCalendar
                   slots={{
-                    calendarHeader: CustomCalendarHeader, // Thay đổi header mặc định
+                    calendarHeader: CustomCalendarHeader,
                   }}
                 />
               </LocalizationProvider>

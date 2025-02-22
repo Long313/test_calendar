@@ -9,16 +9,6 @@ const events = [
     { title: 'Meeting', start: new Date() }
 ]
 
-// const eventStyle = {
-//     display: "inline-block",
-//     maxWidth: "100%",
-//     overflow: "hidden",
-//     verticalAlign: "top",
-//     whiteSpace: "nowrap",
-//     textOverflow: "ellipsis",
-//     width: "103px"
-// };
-// const eventList = { title: 'event 1', date: '2019-04-01' }
 export default function Calendar({ data }) {
     const [list, setList] = useState([]);
     function convertToYYYYMMDD(isoString) {
@@ -51,7 +41,6 @@ export default function Calendar({ data }) {
             const toDate = convertToYYYYMMDD(item.to);
             return {
                 title: item.name,
-                // type: item.type,
                 date: fromDate,
                 extendedProps: {
                     id: item.id,
@@ -110,7 +99,7 @@ export default function Calendar({ data }) {
                   }}
                   customButtons={{
                     month: {
-                        text: "Month " + String.fromCharCode( 9662  ), // 9660 = ▼
+                        text: "Month " + String.fromCharCode( 9662  ), 
                         click: function () {
                         alert("Month button clicked!");
                       },
@@ -119,7 +108,7 @@ export default function Calendar({ data }) {
                   
                   headerToolbar={{
                     left: "today,prev,next,title",
-                    right: "month", // Sử dụng custom button "Month"
+                    right: "month", 
                   }}
             />}
         </div>

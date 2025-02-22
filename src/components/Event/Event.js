@@ -6,29 +6,7 @@ import { useEffect, useState } from "react";
 function Event({data}) {
   const [isShow, setIsShow] = useState(false);
   const {name, from, to, client, type, seq } = data;
-  // useEffect(() => {
-  //   function convertToYYYYMMDD(isoString) {
-  //     const date = new Date(isoString);
-  //     const options = { timeZone: 'Asia/Shanghai' };
-  //     const year = date.toLocaleString('en-US', { year: 'numeric', ...options });
-  //     const month = date.toLocaleString('en-US', { month: '2-digit', ...options });
-  //     const day = date.toLocaleString('en-US', { day: '2-digit', ...options });
-  //     const result = `${year}-${month}-${day}`;
 
-  //     const now = new Date();
-  //     const currentYear = now.toLocaleString('en-US', { year: 'numeric', ...options });
-  //     const currentMonth = now.toLocaleString('en-US', { month: '2-digit', ...options });
-  //     const currentDay = now.toLocaleString('en-US', { day: '2-digit', ...options });
-
-  //     const current = `${currentYear}-${currentMonth}-${currentDay}`;
-
-  //     if (result === current) {
-  //       setIsShow(true);
-  //     }
-  //   }
-
-  //   convertToYYYYMMDD(from);
-  // }, [from]);
   function convertToGMT8(isoString) {
     const date = new Date(isoString);
     
