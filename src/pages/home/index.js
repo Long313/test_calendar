@@ -115,7 +115,7 @@ function Home() {
                 Today, {today}
               </div>
               <div className={`event_container`}>
-                {data.length > 0 && data.map((event) =>
+                {!status && data.length > 0 && data.map((event) =>
                   <Event data={event} key={event.id} />
                 )
                 }
