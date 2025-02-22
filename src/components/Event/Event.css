@@ -75,3 +75,35 @@ svg {
 .link {
     color: #c0baca
 }
+
+.container_event.event {
+    background-color: #f9be81;
+    color: #f9be81;
+}
+
+.container_event.event .time{
+    color: #bca78b;
+}
+
+.container_event.appointment.change_background {
+    background-color: #5784ae;
+    border-left-color: #fd7f38;
+
+}
+
+.container_event.appointment.change_background .title {
+ color: #a9c6da;
+}
+
+.container_event.appointment.change_background .time {
+    color: #93b1cc;
+}
+
+.container_event.appointment.change_background .link{
+    color: #95b3c4;
+}
+
+.container_event.appointment.change_background svg {
+    fill: #5284af;
+    background: #fff9e5;
+}

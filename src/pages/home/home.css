@@ -1,0 +1,114 @@
+.App {
+    background-color: #e0faf7;
+    /* max-height: 100vh; */
+    max-height: max-content;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0px 5%;
+    height: 100%;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left_container {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+    height: 100%;
+    width: 33.3333%;
+    max-height: 100v;
+  }
+  .left_container .container_calendar {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    height: 300px;
+    padding-top: 20px;
+  }
+  
+  .css-qct7wd-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+    background-color: #507eae;
+    color: #fff;
+  }
+  .right_container {
+    width: 66.6667%;
+    background-color: #fff;
+    margin-left: 10px;
+    height: max-content;
+  }
+  
+  .css-16hplv9-MuiButtonBase-root-MuiIconButton-root-MuiPickersCalendarHeader-switchViewButton {
+    display: none !important;
+  }
+  
+  .css-1nxbkmn-MuiPickersCalendarHeader-root {  
+    margin-top: 0 !important;
+  }
+  
+  .css-qct7wd-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+    background-color: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .container_event_comming {
+    margin: 20px;
+  }
+  
+  .container_event_comming .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container_event_comming .header .left {
+    color: #10497a;
+    font-weight: bold;
+    font-size: 30px;
+  
+  }
+  
+  .container_event_comming .header .right {
+    color: #fff;
+    background-color: #10497a;
+    min-width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .container_event_comming .today {
+    color: #bbbabf;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .css-1chuxo2-MuiPickersCalendarHeader-label {
+    color: #10497a;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .css-1ckov0h-MuiSvgIcon-root {
+    fill: #10497a !important;
+  }
+  
+  .loading {
+    height: 100%;
+  }
+  
+  .event_container {
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+  
+  .camera_white {
+    cursor: pointer;
+  }
